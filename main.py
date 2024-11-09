@@ -14,12 +14,6 @@ class OrderlyApp(tk.Tk):
         print("Initializing GameScanner...")
         self.game_scanner = GameScanner()
 
-        # Test scan immediately
-        test_games = self.game_scanner.scan()
-        print(f"Initial test scan found {len(test_games)} games:")
-        for game in test_games:
-            print(f"- {game['name']}: {game['path']}")
-
         self.games_list = []  # This will be populated on login
 
         # Rest of your init code...
