@@ -259,6 +259,10 @@ class GameScanner:
             time.sleep(0.1)  # Small delay to prevent system overload
 
         print(f"Scan complete. Found {len(self.games)} games.")
+        for game in self.games:
+            if "demo" in game['name']:
+                game['name'] = game['name'].split('demo')[0]
+        print(f"Scan complete. Found {len(self.games)} games.")
         return self.games
 
     def get_games(self):
