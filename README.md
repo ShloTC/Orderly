@@ -40,7 +40,7 @@ Orderly is a centralized platform designed to manage and interact with all video
 
 2. Install Dependencies:  
    No external dependencies are required; all necessary libraries are built into Python.
-
+  (Please note that code is hard wired to my computer drives and directories)
 ### Usage
 
 - **Game Library**: Upon connecting the client to the server, Orderly will automatically scan the system for installed games and display them in the interface.
