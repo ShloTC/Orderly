@@ -5,7 +5,8 @@
 ## Project Overview
 Orderly is a centralized platform designed to manage and interact with all video games installed on a user's system. By leveraging a client-server architecture, Orderly provides game tracking, social features, and a quick recording system. The server manages game data, statistics, and communication, while the client delivers a user-friendly interface for game management and launching.
 
-## Key FeaturesAutomatic Game Scanning: Finds and identifies your installed games by detecting the main launcher executables.
+## Key Features
+- **Automatic Game Scanning:** Finds and identifies your installed games by detecting the main launcher executables.
 - **Smart Cover Art System:** Fetches HD covers from RAWG and caches them locally for instant loading.
 - **Game Info Fetching:** Automatically pulls descriptions, release dates, and platform data for every title.
 - **Secure Login & Signup:** User accounts protected with salted SHA-256 hashing and full SSL/TLS encryption.
