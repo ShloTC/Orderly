@@ -40,6 +40,7 @@ Orderly is a centralized platform designed to manage and interact with all video
 
 2. Install Dependencies:  
    No external dependencies are required; all necessary libraries are built into Python.
+   
   (Please note that code is hard wired to my computer drives and directories)
 ### Usage
 
